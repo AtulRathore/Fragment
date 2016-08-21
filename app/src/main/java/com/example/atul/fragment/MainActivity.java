@@ -14,5 +14,13 @@ public class MainActivity extends AppCompatActivity {
 
         FragmentManager fragmentManager = getSupportFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+        Fragment1 f1 = new Fragment1();
+        fragmentTransaction.add(R.id.linearLayout,f1);
+        fragmentTransaction.commit();
+
+
+        Fragment2 f2 = new Fragment2();
+        fragmentTransaction.add(R.id.linearLayout2,f2);
+        fragmentTransaction.commit();
     }
 }

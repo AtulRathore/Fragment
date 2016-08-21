@@ -10,7 +10,7 @@ import android.view.ViewGroup;
 /**
  * Created by Atul on 21-08-2016.
  */
-public class Fragment1 extends Fragment {
+public class Fragment1 extends android.support.v4.app.Fragment {
 
     @Nullable
     @Override

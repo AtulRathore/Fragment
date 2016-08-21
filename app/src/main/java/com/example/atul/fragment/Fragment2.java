@@ -12,7 +12,7 @@ import java.util.zip.Inflater;
 /**
  * Created by Atul on 21-08-2016.
  */
-public class Fragment2 extends Fragment {
+public class Fragment2 extends android.support.v4.app.Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
